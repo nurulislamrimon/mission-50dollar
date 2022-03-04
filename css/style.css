@@ -711,3 +711,39 @@ margin-left: 10px;
 .pin-container span{
     padding: 10px;
 }
+/* ====================right section */
+.right-section-main-container{
+    color: #BCBCBC;
+    height: 100%;
+}
+.right-section-container{
+    padding: 20px;
+    height: 100vh;
+    overflow: scroll;
+}
+
+
+
+
+/* time track */
+.time-track-main-container{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(32, 32, 32, 0.8);
+backdrop-filter: blur(50px);
+border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.time-track-text-box p{
+    margin-right: 90px;
+}
+.expand-icon-modify{
+    transform: rotate(180deg);
+}
+.timer-container{
+    margin-top: 10px;
+}
+.timer-container span{
+    margin-right: 10px;
+}
