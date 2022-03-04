@@ -480,73 +480,59 @@
                     <h4>DESIGN TASK</h4>
                 </div>
                 <!-- main section todo  -->
-                <div class="main-section-todo-container">
-                    <div class="main-todo-head-container flex">
-                        <span class="material-icons">
-                            expand_circle_down
-                        </span>
-                        <div class="main-todo-text-container center">
-                            <p>TODO</p>
+                <div class="todo-section-container">
+                    <div class="todo-header-row align-center">
+                        <div class="first-column align-center">
+                            <div class="column">TODO</div>
+                            <div class="column">3 TASK</div>
                         </div>
-                        <div class="todo-menus-container align-center">
-                            <p>3 TASK</p>
-                            <p>STATUS</p>
-                            <p>PRIORITY</p>
-                            <p>TIME ESTIMATE</p>
-                            <p>TIME TRACKED</p>
-                            <p>DUE DATE</p>
-                            <p>ASSIGNEES</p>
-                            <p>VIDEO</p>
-                        </div>
+                        <div class="column center">STATUS</div>
+                        <div class="column center">PRIORITY</div>
+                        <div class="column center">TIME ESTIMATE</div>
+                        <div class="column center">TIME TRACKED</div>
+                        <div class="column center">DUE DATE</div>
+                        <div class="column center">ASSIGNES</div>
+                        <div class="column center">VIDEO</div>
                     </div>
+                    <!-- task 1 -->
+                    <div class="todo-body-row align-center">
+                        <div class="first-column align-center">
+                            <div class="column"></div>
+                            <div class="column">
+                                <p>Create a postClicked/Reward/ Clicked page with a reward i won is clicked
+                                    and the reward has contact info attactched</p>
+                            </div>
+                            <div class="more-text-icon">
 
-                    <!-- todo tasks -->
-                    <div class="main-todo-all-task-container">
-                        <!-- task 1 -->
-                        <div class="main-todo-task-container align-center">
-                            <div class="todo-task-color-box"></div>
-                            <div class="todo-text-main-container flex">
-                                <div class="todo-text-container">
-                                    <p>
-                                        Create a postClicked/ Reward/ Clicked page with a reward i won is clicked and
-                                        the
-                                        reward has contact info attactched
-                                    </p>
-                                </div>
-                                <div class="todo-more-text-icon">
-                                    <span class="material-icons">
-                                        subject
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="todo-status-box center">
-                                <p>TODO</p>
-                            </div>
-                            <div class="priority-box">
-                                <span class="material-icons">
-                                    tour
+                                <span class="material-icons more-text">
+                                    subject
                                 </span>
                             </div>
-                            <div class="todo-time-estimate-container flex">
-                                <span class="material-icons">
-                                    hourglass_bottom
-                                </span>
-                                <p>45m</p>
-                            </div>
-                            <div class="time-tracked-container flex">
-                                <span class="material-icons">
-                                    play_circle_filled
-                                </span>
-                                <p>00:00:00</p>
-                            </div>
-                            <div class="due-time-container fle">
-                                <span class="material-icons">
-                                    calendar_month
-                                </span>
-                                <p>15,Mar,22</p>
-                            </div>
-                            <!-- user -->
+                        </div>
+                        <div class="column center">TODO</div>
+                        <div class="column center">
+                            <span class="material-icons">
+                                flag
+                            </span>
+                        </div>
+                        <div class="column center">
+                            <span class="material-icons">
+                                hourglass_bottom
+                            </span> 45m
+                        </div>
+                        <div class="column center">
+                            <span class="material-icons">
+                                play_circle
+                            </span> 00:00:00
+                        </div>
+                        <div class="column center">
+                            <span class="material-icons">
+                                calendar_month
+                            </span> 15,Mar,22
+                        </div>
+                        <div class="column center">
                             <div class="users-container flex">
+
                                 <div class="user user-1 center active-user">
                                     <p>AK</p>
                                 </div>
@@ -557,18 +543,22 @@
                                 </div>
 
                                 <div class="user user-3 center active-user">
-                                    <p>+17</p>
+                                    <p>+5</p>
                                 </div>
-                            </div>
 
+                            </div>
+                        </div>
+                        <div class="column center">
                             <span class="material-icons">
                                 smart_display
                             </span>
-
                         </div>
-                    </div>
-                </div>
 
+                    </div>
+                    <!-- task 2 -->
+
+
+                </div>
 
             </div>
 
@@ -580,7 +570,7 @@
         </section>
     </main>
 
-    <div class="users-container flex">
+    <!-- <div class="users-container flex">
 
         <div class="user user-1 center active-user">
             <p>AK</p>
@@ -596,7 +586,67 @@
         </div>
 
     </div> -->
-    <!-- custom js
+
+    <!-- <div class="todo-body-row align-center">
+        <div class="first-column align-center">
+            <div class="column"></div>
+            <div class="column">
+                <p>Create a postClicked/Reward/ Clicked page with a reward i won is clicked
+                    and the reward has contact info attactched</p>
+            </div>
+            <div class="more-text-icon">
+
+                <span class="material-icons more-text">
+                    subject
+                </span>
+            </div>
+        </div>
+        <div class="column center">TODO</div>
+        <div class="column center">
+            <span class="material-icons">
+                flag
+            </span>
+        </div>
+        <div class="column center">
+            <span class="material-icons">
+                hourglass_bottom
+            </span> 45m
+        </div>
+        <div class="column center">
+            <span class="material-icons">
+                play_circle
+            </span> 00:00:00
+        </div>
+        <div class="column center">
+            <span class="material-icons">
+                calendar_month
+            </span> 15,Mar,22
+        </div>
+        <div class="column center">
+            <div class="users-container flex">
+
+                <div class="user user-1 center active-user">
+                    <p>AK</p>
+                </div>
+
+
+                <div class="user user-2 center active-user">
+                    <p>NI</p>
+                </div>
+
+                <div class="user user-3 center active-user">
+                    <p>+5</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="column center">
+            <span class="material-icons">
+                smart_display
+            </span>
+        </div>
+    </div> -->
+    <!-- custom js-->
     <script src="js/script.js"></script>
 </body>
 
