@@ -36,8 +36,7 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 /* main container */
 main{
     
-background: rgba(25, 25, 25, 0.93);
-backdrop-filter: blur(30px);
+    background: #1F201F;
     /* width: 1440px;
     height: 1024px; */
     width: 100%;
@@ -269,8 +268,12 @@ backdrop-filter: blur(30px);
 /* main section todo */
 .todo-section-container{
     width: 100%;
+    margin-top: 10px;
 }
-/* header task */
+.todo-section-container .expand-icon{
+    margin: 0 10px 0 30px;
+}
+/*  task header*/
 .todo-section-container .todo-header-row .first-column{
     width: 14vw;
 }
@@ -314,8 +317,12 @@ backdrop-filter: blur(30px);
     margin: 0 2%;
 }
  /* todo body  all task*/
+ .todo-tasks-container{
+     margin-left: 62px;
+ }
  .todo-body-row{
      margin-bottom: 2px;
+     font-size: small;
  }
 .todo-section-container .todo-task-1{
     height: 84px;
@@ -330,13 +337,15 @@ backdrop-filter: blur(30px);
 }
 .todo-section-container .first-column{
     width: 14vw;
-    height: 84px;
+    height: inherit;
 }
 .todo-body-row .first-column .column:nth-child(2) p{
     white-space: initial;
     font-size: .8rem;
     line-height: 18px;
-    padding: 10px 0;
+    margin: 5px 0;
+    height: 90%;
+    overflow: hidden;
 }
  .todo-body-row .first-column .column:nth-child(2) {
     height: 84px;
@@ -379,4 +388,156 @@ backdrop-filter: blur(30px);
 .todo-section-container .todo-body-row > .column:nth-child(8){
     width: 60px;
     margin: 0 2%;
+}
+/* task-2 */
+.todo-section-container .todo-task-2{
+    height: 70px;background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+}
+/* task-3 */
+.todo-section-container .todo-task-3{
+    height: 60px;
+    background: rgba(25, 25, 25, 0.93);
+backdrop-filter: blur(30px);
+}
+.todo-last-task{
+    padding: 8px 0;
+}
+/* main section wait to review */
+.wait-review-section-container{
+    width: 100%;
+    margin-top: 10px;
+}
+.wait-review-section-container .expand-icon{
+    margin: 0 10px 0 30px;
+}
+/*  task header*/
+.wait-review-section-container .wait-review-header-row .first-column{
+    width: 14vw;
+}
+.wait-review-section-container .wait-review-header-row .column{
+    font-size: small;
+}
+.wait-review-section-container .wait-review-header-row .column:first-child{
+    background-color: #E39600;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    margin-right: 3%;
+    font-size: large;
+}
+.wait-review-section-container .wait-review-header-row > .column:nth-child(2){
+    width: 60px;
+    margin: 0 2%;
+}
+.wait-review-section-container .wait-review-header-row > .column:nth-child(3){
+    width: 60px;
+    margin: 0 2%;
+}
+.wait-review-section-container .wait-review-header-row > .column:nth-child(4){
+    width: 60px;
+    margin: 0 2%;
+}
+.wait-review-section-container .wait-review-header-row > .column:nth-child(5){
+    width: 60px;
+    margin: 0 2%;
+}
+.wait-review-section-container .wait-review-header-row > .column:nth-child(6){
+    width: 60px;
+    margin: 0 2%;
+}
+.wait-review-section-container .wait-review-header-row > .column:nth-child(7){
+    width: 60px;
+    margin: 0 2%;
+}
+.wait-review-section-container .wait-review-header-row > .column:nth-child(8){
+    width: 60px;
+    margin: 0 2%;
+}
+ /* wait-review body  all task*/
+ .wait-review-tasks-container{
+     margin-left: 62px;
+ }
+ .wait-review-body-row{
+     margin-bottom: 2px;
+     font-size: small;
+ }
+.wait-review-section-container .wait-review-task-1{
+    height: 84px;
+    background: rgba(25, 25, 25, 0.93);
+backdrop-filter: blur(30px);
+}
+.wait-review-section-container .wait-review-body-row .column:first-child{
+    background-color: #E39600;
+    height: 10px;
+    width: 10px;
+    margin: 0 20px 0 10px;
+}
+.wait-review-section-container .first-column{
+    width: 14vw;
+    height: inherit;
+}
+.wait-review-body-row .first-column .column:nth-child(2) p{
+    white-space: initial;
+    font-size: .8rem;
+    line-height: 18px;
+    margin: 5px 0;
+    height: 90%;
+    overflow: hidden;
+}
+ .wait-review-body-row .first-column .column:nth-child(2) {
+    height: 84px;
+    width: 150px;
+    overflow: hidden;
+}
+ .wait-review-body-row .first-column .more-text-icon{
+     display: flex;
+     align-items: flex-end;
+     height: 100%;
+}
+
+.wait-review-section-container .wait-review-body-row > .column:nth-child(2){
+    width: 60px;
+    margin: 0 2%;
+    height: 100%;
+    background-color: #E39600;
+    color: white;
+}
+.wait-review-section-container .wait-review-body-row > .column:nth-child(3){
+    width: 60px;
+    margin: 0 2%;
+}
+.wait-review-section-container .wait-review-body-row > .column:nth-child(4){
+    width: 60px;
+    margin: 0 2%;
+}
+.wait-review-section-container .wait-review-body-row > .column:nth-child(5){
+    width: 60px;
+    margin: 0 2%;
+}
+.wait-review-section-container .wait-review-body-row > .column:nth-child(6){
+    width: 60px;
+    margin: 0 2%;
+}
+.wait-review-section-container .wait-review-body-row > .column:nth-child(7){
+    width: 60px;
+    margin: 0 2%;
+}
+.wait-review-section-container .wait-review-body-row > .column:nth-child(8){
+    width: 60px;
+    margin: 0 2%;
+}
+/* task-2 */
+.wait-review-section-container .wait-review-task-2{
+    height: 70px;background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+}
+/* task-3 */
+.wait-review-section-container .wait-review-task-3{
+    height: 60px;
+    background: rgba(25, 25, 25, 0.93);
+backdrop-filter: blur(30px);
+}
+.wait-review-last-task{
+    padding: 8px 0;
 }
