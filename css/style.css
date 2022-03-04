@@ -18,6 +18,9 @@ li{
     display: flex;
     justify-content: space-between;
 }
+.flex{
+    display: flex;
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -145,6 +148,73 @@ main{
 /* ===========================main section*/
 .main-section{
     overflow-y: scroll;
+    color: #BCBCBC;
+}
+.main-section-top-bar{
+    height: 80px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+}
+.search-box input{
+    height: 40px;
+    width: 266px;
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+}
+.main-section-top-right p, .users-container, .main-section-top-right span:not(:last-child){
+    display: flex;
+    margin: 0 20px;
+}
+/* user section */
+.users-container{
+    display: flex;
+}
+.user{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.user p{
+    font-size: 10px;
+    font-weight: 900;
+}
+.user-1{
+    left: 7px;
+    background-color: #283237;
+    color: white;
+}
+.user-2{
+    left: 3px;
+    background-color: #5B34E1;
+    color: white;
+    box-shadow: 0 0 0 3px #191919;
+}
+.user-3{
+    left: 0px;
+    background-color: #283237;
+    color: #BCBCBC;
+    box-shadow: 0 0 0 3px #191919;
+}
+.active-user::after{
+    content: '';
+    position: absolute;
+    background-color: rgb(19, 158, 19);
+    height: 10px;
+    width: 10px;
+    right: 3px;
+    top: -3px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1.5px #191919;
 }
 /* =========================== right todo section */
 .right-todo-section{
