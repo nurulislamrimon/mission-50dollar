@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 li{
     list-style: none;
@@ -11,19 +14,26 @@ li{
     align-items: center;
     justify-content: center;
 }
-/* ::-webkit-scrollbar {
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+::-webkit-scrollbar {
     display: none;
-} */
+}
 
 /* main container */
 main{
     background: #191919;
-    width: 1440px;
-    height: 1024px;
+    min-width: 1440px;
+    min-height: 1024px;
+    /* width: 100%;
+    height: 100vh; */
     overflow: hidden;
     display: grid;
     grid-template-columns: 75px 240px auto 240px;
 }
+
 /* ===========================left user section */
 .left-user-section{
     height: 100%;
@@ -64,7 +74,74 @@ main{
 /* ===========================left menus and projects section */
 .left-menus-projects-section{
     overflow-y: scroll;
+    color: #BCBCBC;
+    background: rgba(32, 32, 32, 0.8);
+    backdrop-filter: blur(50px);
+    white-space: nowrap;
 }
+/* top */
+.left-menus-projects-section .quick-find-container{
+    display: flex;
+    align-items: center;
+    margin: 30px 0 15px 24px;
+}
+.left-menus-projects-section .settings-members-container{
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 24px;
+}
+.left-menus-projects-section .pinned-container{
+    display: flex;
+    align-items: center;
+    margin: 20px 20px 20px 24px;
+}
+.left-menus-projects-section .pinned-container div{
+    display: flex;
+    align-items: center;
+}
+.left-menus-projects-section div p{
+    font-size: 16px;
+    margin: 0 0 0 15px;
+}
+.push-pin-modify{
+    transform: rotate(40deg);
+}
+.arrow-modify{
+    transform: rotate(-90deg);
+}
+/* projects */
+.left-menus-projects-container{
+    padding: 20px 20px 0 20px;
+}
+.projects-title-text{
+    color: #545454;
+}
+.projects-folder-container, .projects-sub-folder-container, .projects-task-container{
+    margin-top: 20px;
+    display: flex;
+    overflow-x: scroll;
+}
+.projects-sub-folder-container{
+    margin-left: 18px;
+}
+.projects-task-container{
+    margin-left: 40px;
+}
+.left-menus-projects-container .projects-last-folder{
+    margin-bottom: 20px;
+}
+.left-menus-bottom-add-button{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+.left-menus-bottom-add-button div{
+    margin: 30px 0 15px 24px;
+    display: flex;
+    align-items: center;
+}
+
+
 /* ===========================main section*/
 .main-section{
     overflow-y: scroll;
