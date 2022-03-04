@@ -690,3 +690,24 @@ backdrop-filter: blur(30px);
 .review-unapproved-last-task{
     padding: 8px 0;
 }
+/* main-section-timer-pin-container */
+.timer-pin-bottom-positioning-container{
+    position: fixed;
+    bottom: 0;
+    right: 240px;
+}
+.main-section-timer-pin-container .timer-container, .pin-container{
+    background: linear-gradient(0deg, rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0.5)), radial-gradient(109% 109% at 50% 50%, rgba(71, 160, 150, 0.604167) 0%, rgba(117, 66, 66, 0.69) 100%);
+border-radius: 10px;
+margin-left: 10px;
+}
+.main-section-timer-pin-container .timer-container span{
+    padding: 10px;
+    margin-right: 5px;
+}
+.stop-icon-modify{
+    color: red;
+}
+.pin-container span{
+    padding: 10px;
+}
