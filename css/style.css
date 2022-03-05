@@ -401,6 +401,9 @@ backdrop-filter: blur(50px);
 .task-section-container .task-body-row > .column:nth-child(8){
     width: 10%;
 }
+.time-tracked-play-btn{
+    color:#80C85B;
+}
 .task-body-row .user{
     width: 1.8rem;
     height: 1.8rem;
