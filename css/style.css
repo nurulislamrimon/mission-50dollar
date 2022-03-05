@@ -372,8 +372,9 @@ backdrop-filter: blur(50px);
     height: 100%;
     width: 150px;
 }
- .task-body-row span.material-icons-container{
+ .task-body-row span.material-icons{
      font-size: 1rem;
+     margin-right: 5px;
      height: 100%;
 }
  .task-body-row .first-column .more-text-icon{
