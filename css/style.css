@@ -182,6 +182,11 @@ backdrop-filter: blur(50px);
     height: 80px;
     padding: 30px;
 }
+.search-box{
+    background-color: #202020;
+    height: 50px;
+    padding-left: 30px;
+}
 .search-box input{
     height: 40px;
     width: 266px;
@@ -496,7 +501,6 @@ margin-left: 10px;
 /* ====================right section */
 .right-section-main-container{
     line-height: 18px;
-    
     background: linear-gradient(0deg, rgba(44, 44, 44, 1), rgba(44, 44, 44, 0.7)), linear-gradient(180deg, rgba(117, 66, 66, 0.69) 0%, rgba(71, 160, 150, 0.604167) 50%, rgba(87, 80, 13, 0) 100%);
 color: #BCBCBC;
     height: 100%;
@@ -526,12 +530,16 @@ color: #BCBCBC;
 backdrop-filter: blur(20px);
     border-radius: 5px;
 }
+.right-section-container span.material-icons{
+    margin-right: 5px;
+}
 .right-section-main-container h6{
     color: #6E6E6E;
 }
 .right-description-container p{
     white-space: initial;
     font-size: 14px;
+    font-weight: 500;
 }
 .priority-urgent-container span{
     color: red;
@@ -554,7 +562,7 @@ backdrop-filter: blur(20px);
     font-weight: 400;
     margin: 0 2px;
 }
-.videos-container .video-container{
+.videos-container .video-container,.attatchments-container .attatchment-container{
     margin: 20px 0;
 }
 .attatchment-container h5{
@@ -563,7 +571,12 @@ backdrop-filter: blur(20px);
 .right-description-container:last-child{
     margin-bottom: 100px;
 }
-
+.attatchement-add-btn{
+    background-color: rgb(255, 255, 255, 0.1);
+    height: 50px;
+    width: 180px;
+    border-radius: 5px;
+}
 
 /* time track */
 .time-track-main-container{
