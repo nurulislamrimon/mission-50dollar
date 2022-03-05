@@ -10,7 +10,6 @@
 body{
     width: 100%;
     background: #1F201F;
-    user-select: none;
 }
 li{
     list-style: none;
@@ -99,6 +98,7 @@ main{
 .left-menus-projects-section{
     overflow-y: scroll;
     height: 95vh;
+    user-select: none;
 }
 /* top */
 .left-menus-projects-section .quick-find-container{
