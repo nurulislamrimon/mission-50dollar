@@ -337,7 +337,7 @@ main{
      margin-left: 64px;
  }
  .task-body-row{
-     margin-bottom: 1px;
+     margin-bottom: 2px;
      font-size: .5rem;
      width: 100%;
  }
@@ -462,7 +462,7 @@ height: 50px;
 .timer-pin-bottom-positioning-container{
     position: fixed;
     bottom: 0;
-    right: 240px;
+    right: 0;
 }
 .main-section-timer-pin-container .timer-container, .pin-container{
     background: linear-gradient(0deg, rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0.5)), radial-gradient(109% 109% at 50% 50%, rgba(71, 160, 150, 0.604167) 0%, rgba(117, 66, 66, 0.69) 100%);
@@ -543,7 +543,12 @@ color: #BCBCBC;
 .videos-container .video-container{
     margin: 20px 0;
 }
-
+.attatchment-container h5{
+    white-space: initial;
+}
+.right-description-container:last-child{
+    margin-bottom: 100px;
+}
 
 
 /* time track */
