@@ -89,7 +89,7 @@ main{
 
 /* ===========================left menus and projects section */
 .left-menus-projects-fixed-section{
-    overflow-y: auto;
+    overflow-y: scroll;
     height: 100%;
     color: #BCBCBC;
     background: linear-gradient(0deg, rgba(44, 44, 44, 1), rgba(44, 44, 44, 0.7)), linear-gradient(180deg, rgba(117, 66, 66, 0.69) 0%, rgba(71, 160, 150, 0.604167) 50%, rgba(87, 80, 13, 0) 100%);
@@ -140,7 +140,7 @@ main{
 .projects-folder-container, .projects-sub-folder-container, .projects-task-container{
     margin-top: 20px;
     display: flex;
-    overflow-x: scroll;
+    overflow-y: scroll;
 }
 .projects-sub-folder-container{
     margin-left: 18px;
@@ -170,6 +170,7 @@ backdrop-filter: blur(50px);
 /* ===========================main section*/
 .main-section{
     overflow-y: scroll;
+    overflow-x: hidden;
     color: #BCBCBC;
 }
 .main-section-top-two-section-container{
@@ -320,7 +321,7 @@ backdrop-filter: blur(50px);
 .task-section-container .task-header-row .column:first-child{
     padding: 5px 10px;
     border-radius: 5px 5px 0 0;
-    font-size: large;
+    font-size: 14px;
     margin-right: 10px;
 }
 .task-section-container .task-header-row > .column:nth-child(2){
@@ -509,7 +510,7 @@ color: #BCBCBC;
 .right-section-container{
     padding: 20px;
     height: 100vh;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 .right-todo-title-container{
     background-color: #E39600;
@@ -527,8 +528,8 @@ color: #BCBCBC;
 .right-description-container{
     margin-top: 20px;
     padding: 10px 10px;
-    background: rgba(43, 41, 41, 0.4);
-backdrop-filter: blur(20px);
+    background: rgba(114, 112, 112, 0.2);
+backdrop-filter: blur(50px);
     border-radius: 5px;
 }
 .right-section-container span.material-icons{
