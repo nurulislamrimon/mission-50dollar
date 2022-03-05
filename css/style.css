@@ -39,11 +39,11 @@ main{
     background: #1F201F;
     /* width: 1440px;
     height: 1024px; */
-    width: 100%;
+    width: 1366px;
     height: 100vh;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 75px 240px auto 240px;
+    grid-template-columns: 75px 240px 820px 240px;
 }
 
 /* ===========================left user section */
@@ -279,12 +279,15 @@ main{
 .todo-section-container .expand-icon{
     margin: 0 10px 0 30px;
 }
-/*  task header*/
+/* todo task header*/
+.todo-section-container .todo-header-row{
+    width: 100%;
+}
 .todo-section-container .todo-header-row .first-column{
-    min-width: 14vw;
+   width: 30%;
 }
 .todo-section-container .todo-header-row .column{
-    font-size: small;
+    font-size: .5rem;
 }
 .todo-section-container .todo-header-row .column:first-child{
     background-color: #E39600;
@@ -295,32 +298,25 @@ main{
     font-size: large;
 }
 .todo-section-container .todo-header-row > .column:nth-child(2){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
 .todo-section-container .todo-header-row > .column:nth-child(3){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
 .todo-section-container .todo-header-row > .column:nth-child(4){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
 .todo-section-container .todo-header-row > .column:nth-child(5){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
 .todo-section-container .todo-header-row > .column:nth-child(6){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
 .todo-section-container .todo-header-row > .column:nth-child(7){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
 .todo-section-container .todo-header-row > .column:nth-child(8){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
  /* todo body  all task*/
  .todo-tasks-container{
@@ -328,7 +324,8 @@ main{
  }
  .todo-body-row{
      margin-bottom: 2px;
-     font-size: small;
+     font-size: .5rem;
+     width: 100%;
  }
 .todo-section-container .todo-task-1{
     height: 84px;
@@ -342,8 +339,7 @@ backdrop-filter: blur(30px);
     margin: 0 20px 0 10px;
 }
 .todo-section-container .first-column{
-    min-width: 14vw;
-    height: inherit;
+    width: 30%;
 }
 .todo-body-row .first-column .column:nth-child(2) p{
     white-space: initial;
@@ -365,8 +361,7 @@ backdrop-filter: blur(30px);
 }
 
 .todo-section-container .todo-body-row > .column:nth-child(2){
-    width: 100px;
-    margin: 0 2%;
+    width: 10%;
     height: 100%;
     background-color: #E39600;
     color: white;
@@ -376,24 +371,19 @@ backdrop-filter: blur(30px);
     margin: 0 2%;
 }
 .todo-section-container .todo-body-row > .column:nth-child(4){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
 .todo-section-container .todo-body-row > .column:nth-child(5){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
 .todo-section-container .todo-body-row > .column:nth-child(6){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
 .todo-section-container .todo-body-row > .column:nth-child(7){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
 .todo-section-container .todo-body-row > .column:nth-child(8){
-    width: 60px;
-    margin: 0 2%;
+    width: 10%;
 }
 /* task-2 */
 .todo-section-container .todo-task-2{
