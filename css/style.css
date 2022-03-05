@@ -9,6 +9,8 @@
 }
 body{
     width: 100%;
+    background: #1F201F;
+    user-select: none;
 }
 li{
     list-style: none;
@@ -154,6 +156,9 @@ main{
     width: 100%;
     position: sticky;
     bottom: 0;
+}
+.left-menus-bottom-add-button p{
+    font-size: .7rem;
 }
 .left-menus-bottom-add-button div{
     padding: 30px 0 15px 24px;
