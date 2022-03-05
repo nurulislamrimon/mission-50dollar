@@ -205,32 +205,47 @@ main{
     font-weight: 900;
 }
 .user-1{
-    left: 7px;
+    left: 14px;
     background-color: #283237;
     color: white;
 }
 .user-2{
-    left: 3px;
+    left: 7px;
     background-color: #5B34E1;
     color: white;
-    box-shadow: 0 0 0 3px #191919;
 }
 .user-3{
     left: 0px;
+    background-color: red;
+    color: white;
+}
+.user-4{
+    left: -7px;
+    background-color: #80C85B;
+    color: white;
+}
+.user-5{
+    left: -14px;
+    background-color: #E39600;
+    color: white;
+}
+.user-6{
+    left: -21px;
+}
+.more-user-assigned{
     background-color: #283237;
     color: #BCBCBC;
-    box-shadow: 0 0 0 3px #191919;
 }
 .active-user::after{
     content: '';
     position: absolute;
     background-color: rgb(19, 158, 19);
-    height: .5rem;
-    width: .5rem;
+    height: .55rem;
+    width: .55rem;
     right: .3rem;
-    top: -.2rem;
+    top: -.1rem;
     border-radius: 50%;
-    box-shadow: 0 0 0 1.5px #191919;
+    box-shadow: 0 0 0 1px #191919;
 }
 /* second top bar */
 .main-section-working-details-bar{
@@ -417,27 +432,27 @@ height: 50px;
 }
 /* wait to review task */
 .wait-review-color{
-    background-color: royalblue;
+    background-color: #3082B7;
     color: white;
 }
 .wait-review-task-color{
-    background-color: royalblue;
+    background-color: #3082B7;
 }
 .wait-review-satus-color{
-    background-color: royalblue;
+    background-color: #3082B7;
     color: white;
     font-size: 1rem;
 }
 /* review unapproved task */
 .unapproved-review-color{
-    background-color: red;
+    background-color: #E30000;
     color: white;
 }
 .unapproved-review-task-color{
-    background-color: red;
+    background-color: #E30000;
 }
 .unapproved-review-satus-color{
-    background-color: red;
+    background-color: #E30000;
     color: white;
     font-size: 1rem;
 }
@@ -466,7 +481,10 @@ margin-left: 10px;
 }
 /* ====================right section */
 .right-section-main-container{
-    color: #BCBCBC;
+    line-height: 18px;
+    background: rgba(32, 32, 32, 0.8);
+backdrop-filter: blur(50px);
+color: #BCBCBC;
     height: 100%;
 }
 .right-section-container{
@@ -474,7 +492,57 @@ margin-left: 10px;
     height: 100vh;
     overflow: scroll;
 }
-
+.right-todo-title-container{
+    background-color: #E39600;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.right-todo-text-container p{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+    white-space: initial;
+}
+.right-description-container{
+    margin-top: 20px;
+    padding: 5px 10px;
+    background: rgba(54, 54, 54, 0.4);
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+}
+.right-section-main-container h6{
+    color: #6E6E6E;
+}
+.right-description-container p{
+    white-space: initial;
+    font-size: 14px;
+}
+.priority-urgent-container span{
+    color: red;
+}
+.comments-container{
+    flex-direction: column;
+}
+.comments-container hr{
+    margin: 10px 0;
+    color: white;
+    width: 100%;
+}
+.comments-container h5{
+    white-space: initial;
+    font-size: 14px;
+    font-weight: 400;
+}
+.videos-container h5{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 2px;
+}
+.videos-container .video-container{
+    margin: 20px 0;
+}
 
 
 
@@ -484,12 +552,12 @@ margin-left: 10px;
     bottom: 0;
     width: 100%;
     padding: 20px;
-    background: rgba(32, 32, 32, 0.8);
+    background: rgba(32, 32, 32, 0.5);
 backdrop-filter: blur(50px);
 border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.time-track-text-box p{
-    margin-right: 90px;
+.time-track-text-box h6{
+    margin-right: 110px;
 }
 .expand-icon-modify{
     transform: rotate(180deg);
